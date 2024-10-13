@@ -30,7 +30,7 @@ double tangente(double x) {
     return sinus(x) / cosinus(x);
 }
 
-int main() {
+int main(int argc, char** argv) {
     double x ;
     double x_degre ;
     std::cout << "  Bonjour Mr/Mme et Bienvenue sur notre porgramme d'implementation du cosinus, sinus et tangente. \n" << "  Veillez entrez l'angle en degres \n";
